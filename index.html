@@ -13,7 +13,10 @@
           <img src="./images/logo.svg" alt="Logo" class="logo" />
         </a>
         <div class="header-info">
-          <p class="header-counter">0 of 3 products selected</p>
+          <p class="header-counter">
+            <span data-selected-products>0</span> of
+            <span data-total-products>3</span> products selected
+          </p>
           <button class="button header-button" disabled>Checkout</button>
         </div>
       </div>
@@ -147,5 +150,6 @@
         </div>
       </section>
     </main>
+    <script src="./script.js" defer></script>
   </body>
 </html>
