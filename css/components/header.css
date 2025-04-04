@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  max-width: 1380px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 12px 40px;
+  background-color: var(--color-white-background);
+  border-radius: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 100px;
+}
+
+.header-counter {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.header-button {
+  padding: 12px 32px;
+}
