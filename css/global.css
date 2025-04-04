@@ -1,9 +1,22 @@
 :root {
   --color-white-background: #ffffff;
+  --color-lightBlue-background: #f3fcff;
+  --color-card-background: #f6f6f6;
+
+  --color-border: #e2e2e2;
+
   --color-dark: #000000;
   --color-light: #f3fcff;
   --color-blue: #001ac2;
   --color-grey: #8c8c8c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-dark);
 }
 
 .container {

@@ -39,14 +39,12 @@
   font-size: 34px;
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-dark);
 }
 
 .hero-descr {
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--color-dark);
 }
 
 .hero-button {

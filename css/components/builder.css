@@ -1,0 +1,32 @@
+.builder {
+  display: grid;
+}
+
+.builder-step {
+  padding: 50px 0;
+  background-color: var(--color-lightBlue-background);
+}
+
+.builder-step--white {
+  background-color: var(--color-white-background);
+}
+
+.builder-step-container {
+  max-width: 960px;
+}
+
+.builder-title {
+  margin-bottom: 33px;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.builder-subtitle {
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
